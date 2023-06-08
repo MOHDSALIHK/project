@@ -14,14 +14,14 @@ export default function Navbar() {
 
 
                 <Nav activeKey="/home"
-                    onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
+                    
                 > 
                    
                               <Nav.Item>
                         <Nav.Link href="/" disabled style={{ fontSize: '20px' }}><b>Home</b></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                        <Nav.Link href='/login'  style={{ fontSize: '20px',color:'black' }} ><b>Login</b></Nav.Link>
+                        <Nav.Link href='./login'  style={{ fontSize: '20px',color:'black' }} ><b>Login</b></Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link  disabled style={{ fontSize: '20px' }}><b>Cart</b></Nav.Link>

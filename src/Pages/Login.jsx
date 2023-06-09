@@ -1,17 +1,35 @@
 import React from 'react'
 
 export default function Login() {
-  return (
-    <div>
-         <div className='box' style={{height:'350px',width:'320px',border:'3px solid',marginLeft:'40%',marginTop:'115px'}}>
-           
-            <label style={{marginLeft:'30px',marginTop:'50px',fontSize:'15px'}}><b>Email or Mobile number</b></label> <br></br>
-            <input style={{marginLeft:'30px',height:'25px',width:'200px',marginTop:'7px',border:'2px solid',borderBlockColor:'grey',borderRightColor:'grey',borderLeftColor:'grey'}} type='text'className='inp'></input><br></br><br></br>
-            <button style={{marginLeft:'30px',height:'25px',width:'200px',marginTop:'7px',border:'2px solid',borderBlockColor:'grey',borderRightColor:'grey',borderLeftColor:'grey'}} >Continue</button>
-         </div>
+    return (
+        <div>
+            <div style={{ height: '500px', width: '400px', border: '2px solid', marginLeft: '35%', marginTop: '5%',background: 'rgb(2,0,36)',
+background: 'linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(24,31,181,1) 0%, rgba(145,190,208,1) 0%, rgba(188,214,219,1) 0%, rgba(216,25,216,1) 0%, rgba(185,209,202,1) 0%, rgba(196,225,216,1) 100%)' }}>
+                <div className='mt-4'>
+                    <h4 className='text-center' style={{fontStyle:'italic'}}>Log in to shoecart</h4>
+                </div>
+                <div className='mt-5'>
+                    <form>
 
-    </div>
-  )
+                        <input style={{ marginLeft: '5%', height: '50px', width: '355px' }} type='text' placeholder='Email or username'></input><br></br><br></br><br></br>
+
+                        <input style={{ marginLeft: '5%', height: '50px', width: '355px' }} type='password' placeholder='password'></input><br></br><br></br><br></br>
+                        <button 
+                         style={{ marginLeft: '5%', height: '50px', width: '355px' }} className='btn bg-success '>Login</button>
+                    </form>
+                </div>
+                <div className='mt-3' style={{ marginLeft:'45%'}}>
+                    <p style={{fontSize:'20px'}}>or</p>
+                </div>
+                <a href='/signup'>
+                <button href='/signup'  style={{background:'blue',marginLeft: '24%', height: '50px',width:'203px'}}>Sign up</button>
+            </a>
+            </div>
+
+
+        </div>
+
+    )
 }
 
 {/*  <div style={{ marginLeft: '35%', marginTop: '120px' }}>

@@ -43,7 +43,7 @@ export default function Navbar() {
 
                     </Form>
                     <img style={{height:'56px',width:'70px',marginLeft:'37%'}} src='https://as2.ftcdn.net/v2/jpg/00/97/00/05/1000_F_97000552_d8RwiZAnFewznisQphPtjyxxRNAAZQ92.jpg' alt=''></img>
-                <h1 style={{marginLeft:'3%'}}>SHOECART</h1>
+                <h1 style={{marginLeft:'3%'}}>shoecart</h1>
                          
 
 

@@ -21,7 +21,7 @@ export default function Home() {
 
         <Carousel>
           <Carousel.Item> <a href='/nike'>
-            <img href='/nike' style={{ height: '400px', width: '100%' }}
+            <img  style={{ height: '400px', width: '100%' }}
               className="d-block w-100"
               src="https://cdn.discordapp.com/attachments/1115968808025325611/1116745306835533854/image.png"
               alt="First slide"
